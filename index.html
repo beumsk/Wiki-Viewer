@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wiki viewer</title>
+  <meta name="description" content="Search for the wiki page you want. First 3 results with link will be displayed.">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+
+  <header class="container-fluid bg-primary">
+  <h1 class="text-center">Wiki Viewer</h1>
+</header>
+
+<section class="container text-center">
+  <!--link to a random wiki page-->
+  <a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random"><p class="lead btn btn-default btn-block btn-lg">Take me to a random wiki page</p></a><br>
+  
+  <!--form to search and get wikipedia links related-->
+  <form class="input-group" method="">
+    <input id="wiki" type="text" class="form-control input-lg" placeholder="Your wiki search" required>
+    <span id="search" class="input-group-addon btn"><i class="glyphicon glyphicon-search"></i></span>
+  </form>
+</section>
+
+<footer class="text-center">
+  <p class="text-center">Created by <a href="https://remybeumier.be" target="_blank">Rémy Beumier</a> with <a href="https://www.mediawiki.org/wiki/API:Main_page">wiki API</a></p>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
